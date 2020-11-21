@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(175, 169, 169);
+    color: white;
+    
+
+}
+/* header css start */
+.container{
+    max-width: 1000px;
+    background-color: rgb(68, 67, 67);
+    margin:0 auto;
+    padding: 20px;
+}
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50px;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+
+}
+
+.header-bio p {
+    font-size: 25px;
+}
+.header-bio p::first-letter{
+    font-size: 150%;
+    color:#68FA00;
+}
+
+h1 h2 h3 h4 h5 h6{
+    color: white;
+}
+.header-contact{
+    float: right;
+    padding: 20px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    border: white solid 3px;
+    max-width: 100%;
+    margin: 20px auto;
+    border-bottom: 20px;
+}
+/* header css End */
+
+.common-information h1{
+    padding-top: 25px;
+   font-size: 30px;
+   color: rgb(104, 250, 0);
+   
+}
+
+/*---------------------
+profile Information
+---------------------*/
+#profile-section{
+    
+}
+.content{
+    padding: 5px;
+}
+.profile-left{
+    width: 30%;
+    float: left;
+    
+}
+.profile-left h1{ 
+   padding-top: 25px;
+   font-size: 30px;
+   color: rgb(104, 250, 0);
+   
+}  
+
+
+.profile-right{
+    width: 70%;
+    float: right;
+    font-size: 20px; 
+    text-align: justify;
+}
+
+
+/*---------------------
+personal Information
+---------------------*/
+#personal-section{
+
+}
+.content{
+    padding: 5px;
+}
+.personal-left{
+    width: 30%;
+    float: left;
+}
+.personal-left h1{
+    padding-top: 20px;
+    font-size: 30px;
+    color: rgb(104, 250, 0);
+}
+
+
+.personal-right{
+    width: 70%;
+    float: left;
+    font-size: 20px; 
+}
+
+/*---------------------
+Work Information
+---------------------*/
+#work-section{
+
+}
+.content{
+    padding: 5px;
+}
+.work-left{
+    width: 30%;
+    float: left;
+}
+.work-left h1{
+    padding-top: 20px;
+    font-size: 30px;
+    color: rgb(104, 250, 0);
+} 
+
+.work-right{
+    width: 70%;
+    float: left;
+    font-size: 20px; 
+}
+.work-right h3{
+    color: #68EF2B;
+} 
+
+/*---------------------
+horizontal row
+---------------------*/
+.common-row{
+    border: #bbff00 solid 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+/*---------------------
+Education Information
+---------------------*/
+.Edication-left-div{
+    width: 30%;
+    float: left; 
+    padding-right: 10px;
+}
+.Edication-left-div h1{
+    padding-top: 20px;
+    font-size: 30px;
+    color: rgb(104, 250, 0);
+}
+.education-left{
+    width: 22%;
+    float: left;
+}
+.education-right{
+    width: 23%;
+    float: right;
+}
+.education-ssc{
+    width: 23%;
+    float: right;
+}
+
+
+
+/*---------------------
+skill Information
+---------------------*/
+.skill-left-div{
+    width: 30%;
+    float: left; 
+}
+.skill-left{
+    width: 35%;
+    float: left;
+    font-size: 20px; 
+}
+.skill-left-div h1{ 
+    padding-top: 50px;
+    font-size: 30px;
+    color: rgb(104, 250, 0);
+    
+ } 
+
+
+.skill-left ul {
+    background: #90db3a;
+    padding: 20px;
+} 
+.skill-left ul  li{
+    background: #a33267;
+    margin: 5px;
+    padding: 3px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+} 
+
+
+
+/*---------------------
+Footer Section
+---------------------*/
+
+.footer-section{
+    background-color: rgb(16, 17, 16);
+    text-align: center;
+    padding: 10px;
+}
+.footer-section a{
+  color: rgb(189, 238, 14);
+  text-decoration: none;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.footer-section a:hover{
+    text-decoration: underline;
+    color: rgb(243, 234, 234); 
+}
+.footer-section p{
+    color: rgb(208, 241, 20);
+  text-decoration: none;
+  margin: 20px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+.fa:hover {
+    opacity: 0.7;
+  }
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
